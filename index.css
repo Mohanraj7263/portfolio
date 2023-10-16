@@ -10,50 +10,34 @@ body {
 
 .portfolio-container {
   display: flex;
-
   flex-direction: column;
-
-  /* background-color: red; */
 }
 .header {
   display: flex;
-  height: 100px;
-  width: 3030px;
   justify-content: space-between;
-  font-size: 41px;
-  margin: auto;
 }
 .left-head {
   display: flex;
   align-items: center;
-  margin-left: 107px;
   font-family: comfortaa;
 }
 
 .right-head {
   display: flex;
   gap: 32px;
-  align-items: center;
-  margin-right: 107px;
-  gap: 32px;
   font-family: Releway;
 }
 .Home {
   display: flex;
-  /* height: 320px; */
-  width: 3015px;
-  justify-content: space-between;
-  /* background-color: yellow; */
-  font-size: 52px;
+  gap: 216px;
+  margin-top: 50px;
 }
 
 .para {
-  font-size: 30px;
   color: #828282;
   font-family: nunito;
 }
 .soft {
-  font-size: 35px;
   font-family: Nunito;
   color: #fdc435;
 }
@@ -66,7 +50,6 @@ body {
   height: 43px;
   background: #fdc435;
   border-radius: 8px;
-  font-size: 18px;
 }
 .link-button {
   display: flex;
@@ -75,81 +58,53 @@ body {
   padding: 8px 24px;
   width: 115px;
   height: 43px;
-  /* background: #FDC435; */
   border-radius: 8px;
-  font-size: 18px;
 }
 .card {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
-  /* justify-content: space-between; */
-  margin-left: 107px;
-  font-size: 110px;
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 .buttons {
   display: flex;
   width: 249px;
-  /* background-color: red; */
   justify-content: space-between;
 }
 .card1 {
-  width: 720px;
-  height: 629px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
 .image {
   display: flex;
+  contain: size;
+}
 
-  /* background-color: yellow; */
-}
-.hellow {
-  font-size: 71px;
-}
 .para-div {
   display: flex;
 }
 .projects {
   display: flex;
-  height: 72px;
-  width: 700px;
   justify-content: center;
   align-items: center;
-  font-size: 48px;
-  border-bottom-style: groove;
-  border-color: rgba(250, 246, 215, 0.797);
   font-family: Playfair Display;
 }
 
 .projects-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
-  margin-top: 200px;
-  /* background-color: red; */
 }
 .projectname-image {
   display: flex;
-  /* flex: none; */
-  /* justify-content: center; */
-  height: 667px;
-  width: 1445px;
-  justify-content: space-between;
-  margin-top: 100px;
-  background-color: #ffffff;
-  align-items: center;
-  /* border: 2px solid gray; */
-  /* border-radius: 6px; */
-  gap: 35px;
-  padding: 70px;
-  border: 2px solid white;
-  border-radius: 82px;
+  height: 266px;
+  gap: 67px;
+  margin-top: 35px;
 }
 .content {
-  width: 779px;
-  font-size: 33px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-end;
 }
 .v-button {
   display: flex;
@@ -157,24 +112,20 @@ body {
   padding-top: 40px;
 }
 .p-button {
-  font-size: 20px;
   border: 2px solid black;
   border-radius: 30px;
   width: 201px;
 }
 .p-name {
-  font-size: 50px;
   font-family: Playfair Display;
 }
 .soft {
   color: rgba(255, 187, 0, 0.921);
 }
 .c-image {
-  width: 700px;
-  /* height: 627px; */
-}
-.img {
-  width: 748px;
+  display: flex;
+  contain: size;
+  width: 50%;
 }
 .grayfont {
   color: #828282;
@@ -182,11 +133,10 @@ body {
 }
 .footer {
   display: flex;
-  /* background-color: yellow; */
   justify-content: center;
   flex-direction: column;
   gap: 45px;
-  margin-top: 200px;
+  margin-top: 45px;
 }
 .foot-image {
   display: flex;
@@ -198,30 +148,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
   color: #828282;
   font-family: Nunito;
 }
-.l-image {
-}
 .project-image {
   display: flex;
-  /* flex: none; */
-  /* justify-content: center; */
-  /* height: 667px; */
-  /* width: 1445px; */
-  justify-content: space-between;
-  margin-top: 100px;
-  background-color: #ffffff;
-  align-items: center;
-  /* border: 2px solid gray; */
-  /* border-radius: 6px; */
-  gap: 35px;
-  /* padding: 70px; */
-  border: 2px solid white;
-  border-radius: 82px;
+  height: 266px;
+  gap: 67px;
+  margin-top: 35px;
 }
 .content-center {
-  width: 779px;
-  font-size: 33px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.l-image {
+  display: flex;
+  contain: size;
+  width: 50%;
+  justify-content: flex-end;
+}
+.project-bottom-line {
+  display: flex;
+  border-bottom-style: groove;
+  border-color: rgba(255, 187, 0, 0.921);
+  width: 200px;
+  justify-content: center;
 }
